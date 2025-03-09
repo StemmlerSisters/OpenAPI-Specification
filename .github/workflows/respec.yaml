@@ -49,13 +49,13 @@ jobs:
         delete-branch: true
         path: deploy
         labels: Housekeeping
-        reviewers: webron,darrelmiller
-        title: Update ReSpec versions
-        commit-message: Update ReSpec versions
+        reviewers: darrelmiller,webron,earth2marsh,webron,lornajane,mikekistler,miqui,ralfhandl,handrews,karenetheridge
+        title: Update ReSpec-rendered specification versions
+        commit-message: Update ReSpec-rendered specification versions
         signoff: true
         body: |
           This pull request is automatically triggered by GitHub action `respec`.
 
-          The versions/v*.md files have changed, so the HTML files are automatically being regenerated.
+          The `versions/*.md` files have changed, so the HTML files are automatically being regenerated.
 
 
