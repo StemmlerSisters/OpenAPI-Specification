@@ -6,5 +6,7 @@ target
 atlassian-ide-plugin.xml
 node_modules/
 deploy/
-history
+deploy-preview/
+coverage/
+_site/
 Gemfile.lock
